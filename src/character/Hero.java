@@ -1,4 +1,4 @@
-package yxlm;
+package character;
 
 public class Hero {
 	private String name;
@@ -20,7 +20,7 @@ public class Hero {
 	public void recovery(float blood) {
 		hp += blood;
 	}
-
+	
 	public String getName() {
 		return name;
 	}

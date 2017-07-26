@@ -1,12 +1,8 @@
+package property;
 
 public class Item {
 	private String name;
 	private int price;
-
-	public Item(String name, int price) {
-		this.name = name;
-		this.price = price;
-	}
 
 	public String getName() {
 		return name;
@@ -25,9 +21,15 @@ public class Item {
 	}
 
 	public static void main(String[] args) {
-		Item item1 = new Item("—™∆ø", 50);
-		Item item2 = new Item("≤›–¨", 300);
-		Item item3 = new Item("≥§Ω£", 350);
+		Item item1=new Item();
+		Item item2=new Item();
+		Item item3=new Item();
+		item1.setName("∂‡¿∂Ω‰");
+		item1.setPrice(400);
+		item2.setName("∂‡¿º∂‹");
+		item2.setPrice(450);
+		item3.setName("∂‡¿ºΩ£");
+		item3.setPrice(450);
 		System.out.println(item1.getName()+" "+item1.getPrice());
 		System.out.println(item2.getName()+" "+item2.getPrice());
 		System.out.println(item3.getName()+" "+item3.getPrice());

@@ -1,4 +1,4 @@
-package yxlm;
+package character;
 
 public class Mangzai {
 	public static void main(String[] args) {
