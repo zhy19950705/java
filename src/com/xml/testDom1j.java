@@ -38,6 +38,6 @@ public class testDom1j {
 			  String servletClass=childElement.elementText("servlet-class");
 			  System.out.println("\t"+servletClass);
 		  }
-	  }
-   }
+		}
+	}
 }
